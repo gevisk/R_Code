@@ -1,3 +1,10 @@
+########================================================================####GvK#
+######                                                                    ######
+####    Christmas Tree                                                      ####
+##        An animated christmas tree                                          ##
+########================================================================########
+
+
 # Inspired by the rblogger christmas tree
 # https://www.r-bloggers.com/make-a-christmas-tree-in-r-with-random-ornamentspresents/
 # I changed the colors and animated the christmas ball.
