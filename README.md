@@ -11,5 +11,5 @@ https://www.r-bloggers.com
 http://adv-r.had.co.nz  
 % A lot of exercises to practice your skill  
 http://r-exercises.com  
-% A wonderful IDE for R (don't hesitate to check their packages)
+% A wonderful IDE for R (don't hesitate to check their packages)  
 https://www.rstudio.com  
