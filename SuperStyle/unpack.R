@@ -8,8 +8,8 @@
 
 
 # Input:
-  v   : a vector
-  sep : a character
+  # v   : a vector
+  # sep : a character
 # Output:
   a string of the concaneted values of v, separated by sep
 unpack <- function(v, sep=' ') paste(v, collapse=sep)
