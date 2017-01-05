@@ -7,7 +7,6 @@
 
 # Inspired by the rblogger christmas tree
 # https://www.r-bloggers.com/make-a-christmas-tree-in-r-with-random-ornamentspresents/
-# I changed the colors and animated the christmas ball.
 
 # rcol() return a random color
 rcol <- function() {  
