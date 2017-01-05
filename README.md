@@ -1,5 +1,5 @@
 # R_Code  
-Useless but styled code, or tips and tricks for R  
+Miscellaneous code, and tips and tricks for R  
 
 ## About this github  
 The purpose of this git is to share my R code and knowledge with everyone  
