@@ -52,3 +52,7 @@ christmas.tree <- function(anim=10, flash=0.5) {
     Sys.sleep(flash)
   }
 }
+
+# Execute:
+  
+christmas.tree()
