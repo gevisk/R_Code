@@ -11,7 +11,7 @@
 
 # rcol() return a random color
 rcol <- function() {  
-  # vector of color names
+  # vector of color names. Feel free to change those by the colors you like
   x=c("salmon", "slateblue", "red", "yellow",
       "goldenrod", "seagreen", "wheat2",
       "magenta", "orange2", "lavenderblush2",
@@ -44,19 +44,19 @@ christmas.tree <- function(anim=10, flash=0.5) {
   }
   
   # Random positions for the balls on the tree
-  x1=runif(4,-5,5)
-  x2=runif(4,-4,4)
-  x3=runif(4,-3,3)
-  x4=runif(4,-2,2)
+  x1=runif(9,-5,5)
+  x2=runif(7,-4,4)
+  x3=runif(5,-3,3)
+  x4=runif(3,-2,2)
   
   # Loop
   duration <- 0
   while (anim >= duration) {
     # add points of random color at the positions defined earlier
-    points(x=x1,y=rep(2,4),col=sample(c(rcol(),rcol()),size=4,replace=T),cex=3,pch=19)
-    points(x=x2,y=rep(3.5,4),col=sample(c(rcol(),rcol()),size=4,replace=T),cex=3,pch=19)
-    points(x=x3,y=rep(5,4),col=sample(c(rcol(),rcol()),size=4,replace=T),cex=3,pch=19)
-    points(x=x4,y=rep(6.25,4),col=sample(c(rcol(),rcol()),size=4,replace=T),cex=3,pch=19)
+    points(x=x1,y=rep(2,9),col=sample(c(rcol(),rcol()),size=4,replace=T),cex=3,pch=19)
+    points(x=x2,y=rep(3.5,7),col=sample(c(rcol(),rcol()),size=4,replace=T),cex=3,pch=19)
+    points(x=x3,y=rep(5,5),col=sample(c(rcol(),rcol()),size=4,replace=T),cex=3,pch=19)
+    points(x=x4,y=rep(6.25,3),col=sample(c(rcol(),rcol()),size=4,replace=T),cex=3,pch=19)
     points(0,7.5,pch=8,cex=5,col="gold",lwd=3)
     duration <- duration + flash
     Sys.sleep(flash) # wait a little
