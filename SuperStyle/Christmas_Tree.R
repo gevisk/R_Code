@@ -24,7 +24,7 @@ rcol <- function() { 
 christmas.tree <- function(anim=10, flash=0.5) {
   # Canvas (empty plot)
   plot(1:10, 1:10, xlim=c(-5,5), ylim=c(0,10), type="n", xlab="",
-       ylab="", xaxt="n", yaxt="n")
+       ylab="", xaxt="n", yaxt="n", main="Merry Christmas !!", col.main="red")
   # Construct the tree
   rect(-1,0,1,2,col="tan4",border="brown4",lwd=3)
   polygon(c(-5,0,5),c(2,4,2),col="forestgreen" ,border="olivedrab4",lwd=3)
