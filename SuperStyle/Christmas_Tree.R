@@ -10,9 +10,16 @@
 # I changed the colors and animated the christmas ball.
 
 # rcol() return a random color
-rcol <- function() colors()[sample(x=1:657, 1)]
-
-
+rcol <- function() {  
+  # vector of color names
+  x=c("salmon", "slateblue", "red", "yellow",
+      "goldenrod", "seagreen", "wheat2",
+      "magenta", "orange2", "lavenderblush2",
+      "honeydew", "royalblue3", "snow",
+      "turquoise", "purple")
+  # return a random color
+  return(sample(x, 1))
+}
 christmas.tree <- function(anim=10, flash=0.5) {
   # Canvas (empty plot)
   plot(1:10, 1:10, xlim=c(-5,5), ylim=c(0,10), type="n", xlab="",
