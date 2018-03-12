@@ -1,5 +1,6 @@
-# R_Code  
+# R Code  
 Miscellaneous code, and tips and tricks for R  
+
 
 ## Some links
 % A group of 600 R bloggers  
